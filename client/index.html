@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortune-button">Get a random fortune</button>
+
+<script>
+  
+</script>
+<h1></h1>
+<div id="fortune-display"></div>
+    <div>
+      <label for="category-select">Category:</label>
+      <select id="category-select">
+        <option value="">--Select a category--</option>
+        <option value="fitness">Fitness</option>
+        <option value="finance">Finance</option>
+        <option value="career">Career</option>
+        <option value="personal-development">Personal Development</option>
+      </select>
+    </div>
+    <h1></h1>
+    <div>
+      <label for="goal-input">Goal:</label>
+      <input type="text" id="goal-input" placeholder="Enter your goal">
+      <button id="track-goal-btn">Track Goal</button>
+    </div>
+    <h1></h1>
+    <button id="generate-btn">Generate Random Activity</button>
+<div id="modal" class="modal">
+  <div class="modal-content">
+    <span class="close">&times;</span>
+    <h2 id="activity-title"></h2>
+    <p id="activity-desc"></p>
+    <button id="save-btn">Save Activity</button>
+  </div>
+</div>
+<h1></h1>
+<form id="affirmation-form">
+  <label for="time-input">Choose affirmation time:</label>
+  <input type="time" id="time-input" name="time-input" required><br><br>
+  
+  <label for="affirmation-select">Choose affirmation:</label>
+  <select id="affirmation-select" name="affirmation-select">
+    <option value="You are capable of achieving your goals">You are capable of achieving your goals</option>
+    <option value="You are strong and resilient">You are strong and resilient</option>
+    <option value="You have the power to make positive changes in your life">You have the power to make positive changes in your life</option>
+  </select><br><br>
+  
+  <button type="submit">Save</button>
+</form>
+    <header>
+      <h1></h1>
+  </header>
+  <main>
+
+  <form>
+      
+
+  </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
